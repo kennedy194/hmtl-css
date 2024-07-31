@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens Dinamicas</title>
+</head>
+<body>
+    <p>
+        tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador
+    </p>
+     <picture>
+        <source media="(max-width:750px )" srcset="imagens/imagemP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemM.png" type="image/png">
+        <img src="imagens/imagemG.png" alt="imagem flexivel">
+     </picture>
+
+     <h1>reproduzindo audio</h1>
+     <p>vamos aprender a reproduzir audio no HTML5</p>
+     <audio src="midia/A Walk Into Space - Topher Mohr and Alex Elena.mp3" controls></audio>
+</body>
+</html>
