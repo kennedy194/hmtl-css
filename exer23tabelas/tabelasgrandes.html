@@ -10,15 +10,21 @@
         }
         
         table{
-            width: 500px;
+            width: 1000px;
             border-collapse: collapse;
 
         }
+        
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
 
+        td{
+            text-align: right;
+            background-color:darkkhaki;
+        }
+            
         thead, tfoot{
             background-color: gray;
             color: white;
@@ -27,13 +33,19 @@
         .numero{
             text-align: right;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 2px;
+            background-color: lightgray;
+        }
     </style>
 </head>
 <body>
     <h1>Usos das tabelas</h1>
     <!--
     ANATOMIA PARA AS TABELAS GRANDES
-
+    CAPTION
     THEAD
     tr, td, th
     TBODY
@@ -41,67 +53,133 @@
     TFOOT
     tr, td, th -->
     <table>
+        <caption>UNIDADES FEDERATIVAS DO BRASIL</caption>
         <thead>
             <tr>
                 <th>Estado</th>
+                <th>Circunferência Geografica </th>
+                <th>Patrimomio</th>
+                <th>Arrecadação de Impostos</th>
                 <th>População</th>
-            </tr>
+            </tr> 
         </thead>
         <tbody>
             <tr>
                 <td>São Paulo</td>
-                <td class="numero">45 915 049</td>
+                <td>15000m²</td> 
+                <td>15°Bilhões de Reais</td>
+                <td>15°Milhões Reais</td>
+                <td class="numero">125 459 578</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
-                <td class="numero">45 115 057</td>
+                <td>14000m²</td>
+                <td>14°Bilhões de Reais</td>
+                <td>14°Milhões de Reais</td>
+                <td class="numero">125 489 579</td>
             </tr>
             <tr>
-                <td><b>Natal</b></td>
-                <td class="numero">58 251 158</td>
-            </tr>
-
-            <tr>
-                <td>Brasilia</td>
-                <td class="numero">54 214 017</td>
-            </tr>
-            <tr>
-                <td>Paraiba</td>
-                <td class="numero">234 159 753</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td class="numero">156 352 789</td>
+                <td><strong>Rio Grande do Norte</strong></td>
+                <td>13000m²</td>
+                <td>13°Bilhões de Reais</td>
+                <td>13°Milhões de Reais</td>
+                <td class="numero">490 257 134</td>
             </tr>
             <tr>
                 <td>Pernambuco</td>
-                <td class="numero">147 236 078</td>
-            </tr>
-            <tr>
-                <td>Maceio</td>
-                <td class="numero">569 369 357</td>
-
+                <td>12000m²</td>
+                <td>12°Bilhões de Reais</td>
+                <td>12°Milhões de Reais</td>
+                <td class="numero">478 269 431</td>
             </tr>
             <tr>
                 <td>Ceara</td>
-                <td class="numero"> 251 039 037</td>
+                <td>11000m²</td>
+                <td>11°Bilhões de Reais</td>
+                <td>11°Milhões de Reais</td>
+                <td class="numero">259 751 248</td>
             </tr>
             <tr>
-                <td>Recife</td>
-                <td class="numero">013 324 032</td>
+                <td>Brasilia</td>
+                <td>10000m²</td>
+                <td>10000°Bilhões de Reais</td>
+                <td>10000°Milhões de Reais</td>
+                <td class="numero">174 481 761</td>
             </tr>
             <tr>
-                <td>Alagoas</td>
-                <td class="numero">039 078 079</td>
+                <td>Minas Gerais</td>
+                <td>9000m²</td>
+                <td>9000°Bilhões de Reais</td>
+                <td>9000°Milhões de Reais</td>
+                <td class="numero">253 246 321</td>
             </tr>
-
+            <tr>
+                <td>Bahia</td>
+                <td>8000m²</td>
+                <td>8000°Bilhões de Reais</td>
+                <td>8000°Milhões de Reais</td>
+                <td class="numero">324 423 453</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td>7000m²</td>
+                <td>7000°Bilhões de Reais</td>
+                <td>7000°Milhões de Reais</td>
+                <td class="numero">157 751 457</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td>6000m²</td>
+                <td>6000°Bilhões de Reais</td>
+                <td>6000°Milhões de Reais</td>
+                <td class="numero">465 654 359</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>5000m²</td>
+                <td>5000°Bilhões de Reais</td>
+                <td>5000°Milhões de Reais</td>
+                <td class="numero">693 398 856</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td>4000m²</td>
+                <td>4000°Bilhões de Reais</td>
+                <td>4000°Milhões de Reais</td>
+                <td class="numero">259 987 756</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>3000m²</td>
+                <td>3000°Bilhões de Reais</td>
+                <td>3000°Milhões de Reais</td>
+                <td class="numero">254 489 362</td>
+            </tr>
+            <tr>
+                <td>Serjipe</td>
+                <td>2000m²</td> 
+                <td>2000°Bilhões de Reais</td>
+                <td>2000°Milhões de Reais</td>
+                <td class="numero">248 653 589</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>1000m²</td>
+                <td>1000°Bilhões de Reais</td>
+                <td>1000°Milhões de Reais</td>
+                <td class="numero">289 982 467</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitante</th>
-                <td class="numero"><strong>1.614.054.406</strong></td>
+                <th>Totais</th>
+                <th>120000m²</th>
+                <th>120,000,000,000</th>
+                <th>120,000,000</th>
+                <th>1.479.226.970</th>
+                
             </tr>
         </tfoot>
-    </table>
+    </table> 
 </body>
 </html>
