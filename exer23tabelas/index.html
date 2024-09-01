@@ -13,8 +13,9 @@
         }
 
         table{
-            width: 400px;
+            width: 500px;
             border-collapse: separate;
+            height: 400px;
         }
 
         tr.rico{
@@ -25,6 +26,8 @@
         td{
             border: 1px solid black;
             padding: 10px;
+            text-align: center; /*<alinhamento horizontal*/
+            vertical-align: middle; /*alinhamento vertical*/
         }
         td.pobre {
             background-color: blue;
@@ -32,6 +35,11 @@
 
         tr.rico{
             background-color: brown;
+        }
+
+        .numero{
+            text-align: right;
+
         }
 
         
@@ -46,7 +54,7 @@
             <td class="pobre">02</td>
             <td>03</td>
             <td>04</td>
-            <td>05</td>
+            <td class="numero">05</td>
         </tr>
 
         <tr>
@@ -54,7 +62,7 @@
             <td>07</td>
             <td>08</td>
             <td>09</td>
-            <td>10</td>
+            <td class="numero">10</td>
         </tr>
         
         <tr>
@@ -62,7 +70,7 @@
             <td>12</td>
             <td>13</td>
             <td>14</td>
-            <td>15</td>
+            <td class="numero">15</td>
 
         </tr>
 
