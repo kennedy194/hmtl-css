@@ -12,6 +12,7 @@
         table{
             width: 1000px;
             border-collapse: collapse;
+            position: relative;
 
         }
         
@@ -22,13 +23,19 @@
 
         td{
             text-align: right;
-            text-decoration: underline;
+            
           
         }
             
         thead, tfoot{
             background-color: gray;
             color: white;
+
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px; 
+            background-color:gray;
 
         }
 
